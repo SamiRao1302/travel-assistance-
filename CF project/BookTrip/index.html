@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exploore</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/index-style.css" rel="stylesheet">
+    <link href="assets/css/all.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
+
+</head>
+    <body>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<header class="header-bg">
+    <nav class="top_nav py-3 bg-dark bg-opacity-50 d-none d-lg-block">
+        <div class="container">
+            <div class="row top_nav_row">
+                <div class="col-8 col-lg-6 col-xl-8 top_email_col">
+                    <div class="nav_email_phone d-flex gap-0 column-gap-5">
+                        <a href="tel:+923243654589" class="text-white text-decoration-none fs-7" aria-label="Phone"><span class="p-1"><i class="fa-solid fa-phone" style="color: #ffdd00;"></i></span>+92 3243654589</a>
+                        <a href="mailto:aimalmazhar526@gmail.com" class="text-white text-decoration-none fs-7" aria-label="Email"><span class="p-1"><i class="fa-solid fa-envelope" style="color: #ffdd00;"></i></span>aimalmazhar526@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <nav class="navbar navbar-expand-xl bg-dark bg-opacity-50 p-0">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/images/logo.png" alt="Logo" style="width: 150px; height: auto;">
+
+                <p class="tagline fs-9 text-white common_font">Journey Beyond Limits</p>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><i class="fa-solid fa-bars text-white"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-white m-2 fw-bold" href="index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white m-2 fw-bold" href="destination.html">DESTINATIONS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white m-2 fw-bold" href="packages.html">PACKAGES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white m-2 fw-bold" href="about.html">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white m-2 fw-bold" href="blog.html">BLOG</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white m-2 fw-bold" href="contact.html">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<div class="heropage">
+    <section class="hero-banner">
+        <div class="container text-center">
+            <h1 class="display-3 fw-bold">Explore Your Dream Destinations</h1>
+            <p class="lead">Book flights, hotels, and packages all in one place!</p>
+            <form>
+                <input type="text" placeholder="Search Destinations, Flights, Hotels, or Packages" class="form-control" />
+                <button class="btn btn-primary mt-3 my-2">Search</button>
+            </form>
+        </div>
+    </section>
+    
+</div>
+<div class="conainer">
+    <section class="services-intro">
+    <div class="container text-center">
+        <h2>Our Services</h2>
+        <p>Explore our wide range of travel services designed for your comfort and convenience.</p>
+        <div class="row">
+            <div class="col-md-4">
+                <h4>Flight Booking</h4>
+                <p>Find the best deals on flights worldwide.</p>
+            </div>
+            <div class="col-md-4">
+                <h4>Hotel Booking</h4>
+                <p>Book your stay at luxurious hotels globally.</p>
+            </div>
+            <div class="col-md-4">
+                <h4>Tour Packages</h4>
+                <p>Choose from curated travel packages for all types of trips.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+</div>
+        <section class="hero_sec_bg">
+            <div class="container">
+                <div class="hero_sec_content">
+                    <h2 class="hero_sec_heading common_font text-center">FIND HOTELS</h2>
+                    <form action="">
+                        <div class="row gap-0 column-gap-md-3 row-gap-3 justify-content-around justify-content-xl-start fw-bold m-0">
+                            <div class=" col-7 col-md-4 col-lg-3 col-xl-2 p-0">
+                                <label for="location">Where?</label><br>
+                                <input type="text" class="hero_sec_inputs" placeholder="Location">
+                            </div>
+                            <div class=" col-7 col-md-4 col-lg-3 col-xl-2 p-0 my-sm-3 my-md-0">
+                                <label for="inDate">Check in</label><br>
+                                <input type="date" class="hero_sec_inputs">
+                            </div>
+                            <div class=" col-7 col-md-4 col-lg-3 col-xl-2 p-0">
+                                <label for="outDate">Check out</label><br>
+                                <input type="date" class="hero_sec_inputs">
+                            </div>
+                            <div class=" col-7 col-md-4 col-lg-3 col-xl-1 p-0 my-sm-3 my-md-0 w-sm-50">
+                                <label for="">Adult</label><br>
+                                <input type="number" class="hero_sec_inputs" placeholder="01" min="0" max="50">
+                            </div>
+                            <div class="col-7 col-md-4 col-lg-3 col-xl-1 p-0">
+                                <label for="">Child</label><br>
+                                <input type="number" class="hero_sec_inputs" placeholder="00" min="0" max="50">
+                            </div>
+                            <div class=" col-7 col-md-4 col-lg-3 col-xl-2 p-0 text-center">
+                                <br>
+                                <button type="submit" class="hero_sec_btn">CLICK HERE</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="row p-4 my-5">
+                    <div class="col-lg-5 col-xl-6 p-2 d-none d-lg-block">
+                        <div class="sec_5_img"></div>
+                    </div>
+                    <div class="col-11 col-lg-7 col-xl-6">
+                            <h2 class="all_sec_heading common_font fw-bold">Trusted since 2001</h2>
+                            <h3>We are Travel Agent</h3>
+                            <div class="btn-group my-4 d-flex justify-content-center" role="group" aria-label="Large button group">
+                                <button type="button" href="#" class="btn btn-primary flight_btn px-md-5 py-3"><i class="fa-solid fa-plane fs-5" style="color: #fff;"></i><span class="text-white fw-bold ps-2 d-none d-md-inline">Flight</span></button>
+                                <button type="button" href="#" class="btn cab_btn px-md-5 py-3"><i class="fa-solid fa-car fs-5"></i><span class="fw-bold ps-2 d-none d-md-inline">Cab</span></button>
+                                <button type="button" href="#" class="btn hotel_btn px-md-5 py-3 bg-white"><i class="fa-solid fa-landmark fs-5"></i><span class="fw-bold ps-2 d-none d-md-inline">Hotel</span></button>
+                            </div>                            
+                            <p class="fw-bold fs-8 pb-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere aperiam ad nobis, id soluta asperiores. Necessitatibus, obcaecati.
+                                Minus quisquam assumenda voluptate iure eaque quos doloribus! Quisquam consequatur eos doloremque perferendis? Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Molestiae, consequuntur accusantium quis debitis sed similique repudiandae aut, est necessitatibus, exercitationem ipsam velit eos 
+                                asperiores fuga ab modi. Rem, aperiam quae!
+                            </p>
+                            <button class="header_btn mb-2">CLICK HERE</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="row p-5 text-center">
+                    <h2 class="all_sec_headings common_font fw-bold">Our Best Services</h2>
+                    <h3>We are Travel Agent</h3>                   
+                </div>
+                <div class="row pb-5">
+                    <div class="col-sm-12 col-md-6">
+                        <div class="row justify-content-around justify-content-md-start">
+                            <div class="col-2"> 
+                                <i class="fa-solid fa-plane fs-2" style="color: #00a4ff;"></i>
+                            </div>
+                            <div class="col-8">
+                                <h5>Lorem ipsum dolor sit</h5>
+                                <p class="fs-7">Lorem ipsum dolor sit amet consectetur adipisicing elit Dicta dolorum sit amet dolor euismod.</p>
+                            </div>
+                        </div>
+                        <div class="row justify-content-around justify-content-md-start">
+                            <div class="col-2">
+                                <i class="fa-solid fa-landmark fs-2" style="color: #00a4ff;"></i>
+                            </div>
+                            <div class="col-8">
+                                <h5>Lorem ipsum dolor sit</h5>
+                                <p class="fs-7">Lorem ipsum dolor sit amet consectetur adipisicing elit Dicta dolorum sit amet dolor euismod.</p>
+                            </div>
+                        </div>
+                        <div class="row justify-content-around justify-content-md-start">
+                            <div class="col-2">
+                                <i class="fa-solid fa-utensils fs-2" style="color: #00a4ff;"></i>
+                            </div>
+                            <div class="col-8">
+                                <h5>Lorem ipsum dolor sit</h5>
+                                <p class="fs-7">Lorem ipsum dolor sit amet consectetur adipisicing elit Dicta dolorum sit amet dolor euismod.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6">
+                        <div class="row justify-content-around justify-content-md-start">
+                            <div class="col-2">
+                                <i class="fa-solid fa-train fs-2" style="color: #00a4ff;"></i>
+                            </div>
+                            <div class="col-8">
+                                <h5>Lorem ipsum dolor sit</h5>
+                                <p class="fs-7">Lorem ipsum dolor sit amet consectetur adipisicing elit Dicta dolorum sit amet dolor euismod.</p>
+                            </div>
+                        </div>
+                        <div class="row justify-content-around justify-content-md-start">
+                            <div class="col-2">
+                                <i class="fa-solid fa-bicycle fs-2" style="color: #00a4ff;"></i>
+                            </div>
+                            <div class="col-8">
+                                <h5>Lorem ipsum dolor sit</h5>
+                                <p class="fs-7">Lorem ipsum dolor sit amet consectetur adipisicing elit Dicta dolorum sit amet dolor euismod.</p>
+                            </div>
+                        </div>
+                        <div class="row justify-content-around justify-content-md-start">
+                            <div class="col-2">
+                                <i class="fa-solid fa-eye fs-2" style="color: #00a4ff;"></i>
+                            </div>
+                            <div class="col-8">
+                                <h5>Lorem ipsum dolor sit</h5>
+                                <p class="fs-7">Lorem ipsum dolor sit amet consectetur adipisicing elit Dicta dolorum sit amet dolor euismod.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section_2">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-6 section_2_img p-0">
+                        <img src="assets/images/WeAreExploore-img.png" alt="#" class="w-100">
+                    </div>
+                    <div class="col-lg-6 section_2_bg">
+                        <div class="row p-5 p-lg-4">
+                            <h2 class="all_sec_heading common_font fw-bold">Trusted since 2001</h2>
+                            <h3>We are Exploore</h3>
+                            <p class="sec_2_para fw-bold fs-7 py-3 py-lg-0 py-xl-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate est cumque deleniti, earum facere tempora nobis incidunt! Nam, ea expedita maxime,
+                            fuga, culpa debitis soluta error officiis repellat illo magnam.</p>
+                            <div class="row">
+                                <div class="col-1">
+                                <i class="fa-solid fa-circle-check" style="color: #00a4ff;"></i>
+                                </div>
+                                <div class="col-11">
+                                    <p class="sec_2_para fw-bold fs-7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quibusdam eius eum possimus a velit aliquam.</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-1">
+                                <i class="fa-solid fa-circle-check" style="color: #00a4ff;"></i>
+                                </div>
+                                <div class="col-11">
+                                    <p class="sec_2_para fw-bold fs-7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quibusdam eius eum possimus a velit aliquam.</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-1">
+                                <i class="fa-solid fa-circle-check" style="color: #00a4ff;"></i>
+                                </div>
+                                <div class="col-11">
+                                    <p class="sec_2_para fw-bold fs-7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quibusdam eius eum possimus a velit aliquam.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="reviews-bg">
+            <div class="container text-center text-white">
+                <div class="py-5">
+                    <h2 class="all_sec_headings common_font fw-bold">Customer Reviews</h2>
+                    <h3>We Are Travel Agents</h3> 
+                    <h6 class="pt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim exercitationem asperiores excepturi 
+                        nam voluptatum non alias iure eligendi quia quasi, error praesentium ipsam architecto? Sunt minima odio eaque perferendis excepturi.
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit koram ispum tunkamor ishaloka tim porma seel pack. 
+                    </h6>
+                    <div class="pb-4">
+                        <i class="fa-solid fa-star" style="color: #ffdd00;"></i>
+                        <i class="fa-solid fa-star px-2" style="color: #ffdd00;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffdd00;"></i>
+                        <i class="fa-solid fa-star px-2" style="color: #ffdd00;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffdd00;"></i>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <div class="profile-picture">
+                            <img src="assets/images/profile-pic.avif" alt="#">
+                        </div>
+                        <h5 class= "d-flex align-items-center ps-2">John Silver</h5>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer bg-dark text-white pt-5 pb-4">
+            <div class="container">
+                <div class="row text-center text-md-left">
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                        <h5 class="text-uppercase mb-4 font-weight-bold">Exploore</h5>
+                        <p>Explore the world with us. Tailored trips for every kind of traveler.</p>
+                    </div>
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                        <h5 class="text-uppercase mb-4 font-weight-bold">Quick Links</h5>
+                        <p><a href="about.html" class="text-white" style="text-decoration: none;">About Us</a></p>
+                        <p><a href="blog.html" class="text-white" style="text-decoration: none;">Blog</a></p>
+                        <p><a href="contact.html" class="text-white" style="text-decoration: none;">Contact</a></p>
+                    </div>
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                        <h5 class="text-uppercase mb-4 font-weight-bold">Follow Us</h5>
+                        <p><a href="https://facebook.com" class="text-white" style="text-decoration: none;"><i class="fa-brands fa-facebook"></i> Facebook</a></p>
+                        <p><a href="https://twitter.com" class="text-white" style="text-decoration: none;"><i class="fa-brands fa-twitter"></i> Twitter</a></p>
+                    </div>
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                        <h5 class="text-uppercase mb-4 font-weight-bold">Contact</h5>
+                        <p><i class="fa-solid fa-user"></i> Sami Rao</p>
+                        <p><i class="fa-solid fa-envelope"></i> raosami559gmail</p>
+                        <p><i class="fa-solid fa-phone"></i> +92 3202017520</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <p class="text-center">© 2024 Exploore. All Rights Reserved.</p>
+                </div>
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
